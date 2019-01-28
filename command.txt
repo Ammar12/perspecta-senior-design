@@ -1,0 +1,2 @@
+base: http://boxstarter.org/package/nr/url?
+loc: https://raw.githubusercontent.com/Ammar12/perspecta-senior-design/master/boxstarter_configs.txt
