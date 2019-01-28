@@ -1,0 +1,11 @@
+Set-ExplorerOptions -showProtectedOSFiles -showFileExtensions
+
+#Enable-RemoteDesktop
+
+#cinst adobereader
+
+cinst imageresizerapp
+
+#cinst skype
+
+#cinst f.lux 
