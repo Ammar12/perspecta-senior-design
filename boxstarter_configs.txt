@@ -2,9 +2,9 @@ Set-ExplorerOptions -showProtectedOSFiles -showFileExtensions
 
 #Enable-RemoteDesktop
 
-#cinst adobereader
+cinst adobereader
 
-cinst imageresizerapp
+#cinst imageresizerapp
 
 #cinst skype
 
