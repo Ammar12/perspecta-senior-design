@@ -1,6 +1,6 @@
 # Perspecta Senior Design Project
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
+![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)
 
 Senior Design project for Cyber Security Engineering
 
