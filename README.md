@@ -23,13 +23,12 @@ Current Branch Worker: Ammar Al-Kahfah
 	- .NET Framework 4+
 ##### Process
 
-	- Open up Administrative CMD (Command Prompt) Shell
+	* Open up Administrative CMD (Command Prompt) Shell
+	```
+	$ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+	```
 
-```
-$ @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-```
-
-	- Check if the program installed correctly
+	* Check if the program installed correctly
 	```
 	$ choco 
 	$ choco install firefox -y 
